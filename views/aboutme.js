@@ -9,8 +9,9 @@ function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
   return html`
     <main class="sans-serif pa3">
-      <h1>Alexandra Gonzenbach Perkins</h1>
-      <p>I'm 33 and learning to code</p>
+      <h1>Alexandra Gonzenbach Perkins, Ph.D.</h1>
+      <p>I am an Instructor of Spanish at The University of Alabama.</p>
+      <p>I enjoy yoga, running, performance art, and software engineering.</p>
     </main>
   `
 }
