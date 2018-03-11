@@ -9,8 +9,9 @@ function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
   return html`
     <main class="sans-serif pa3">
-      <h1>CV, Losers</h1>
-      <p>I'm 33 and learning to code</p>
+      <h1>CV</h1>
+      <p>Click below for all my info.</p>
+      <a href="/assets/Perkins_CV_Public.pdf" download="Perkins_CV">Click away!</a>
     </main>
   `
 }
