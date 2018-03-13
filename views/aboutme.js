@@ -11,7 +11,8 @@ function view (state, emit) {
     <main class="sans-serif pa3">
       <h1>Alexandra Gonzenbach Perkins, Ph.D.</h1>
       <p>I am an Instructor of Spanish at The University of Alabama.</p>
-      <p>I enjoy yoga, running, performance art, and software engineering.</p>
+      <p>I enjoy pretentious photos, yoga, running, performance art, and software engineering.</p>
+      <img src="/assets/han.jpg" alt="me">
     </main>
   `
 }
