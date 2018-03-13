@@ -11,7 +11,7 @@ function contactme (state, emit) {
     <main class="sans-serif pa3">
       <h1>Where to Find Me</h1>
       <p>You can email me at aperkins@ua.edu</p>
-      <p><p>Check my academia.edu <a href="http://crimson.academia.edu/AlexandraGonzenbachPerkins">page</a> for copies of my publications.</p>
+      <p><p>Check my academia.edu <a href="http://crimson.academia.edu/AlexandraGonzenbachPerkins">page</a> for copies of my publications and syllabi.</p>
     </main>
   `
 }

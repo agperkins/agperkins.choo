@@ -8,15 +8,15 @@ var TITLE = 'Research | Ali'
 function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
   return html`
-    <main class="sans-serif pa3">
+    <main class="pa3">
       <h1>Research</h1>
-      <p>My research focuses on narrative, theatre, and performance art in Latin American, the Caribbean, and larger global contexts. I research how geographic spaces transform the creation and reception of text and performance. Particularly, I investigate the effects of transnational movement in works that represent queer and transgender identities.</p>
-      <p>Here are some of my interests:</p>
+      <p>How do we describe who we are? This question informs my research. From sonnets to selfies, fashion to photography, self-expression pushes artistic and cultural boundaries. I investigate how queer and transgender performers in Latin America use different media to represent key aspects of their identities.</p>
+      <p>Here are my areas of research and the theoretical apparatuses I like to use:</p>
       <ul>
         <li>21st Century Latin American Performance</li>
         <li>Transnational and Diaspora Studies</li>
         <li>Queer Theory</li>
-        <li>Transgneder Theory</li>
+        <li>Transgender Theory</li>
         <li>Performance Studies</li>
     </main>
   `

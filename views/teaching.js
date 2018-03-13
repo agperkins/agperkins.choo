@@ -22,6 +22,8 @@ function view (state, emit) {
         <li>Spanish American Civilization</li>
         <li>Spanish Conversation</li>
         <li>Advanced Grammar and Composition</li>
+      <p> See below a performative vision of my work in the classroom:</p>
+      <img src="/assets/Teaching.jpg" alt="Classroom">
     </main>
   `
 }
