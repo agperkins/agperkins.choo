@@ -21,7 +21,6 @@ app.route('/publications', require('./views/publications'))
 app.route('/gallery', require('./views/gallery'))
 app.route('/contactme', require('./views/contactme'))
 app.route('/cv', require('./views/cv'))
-app.route('/example', require('./views/example'))
 app.route('/teaching', require('./views/teaching'))
 
 if (!module.parent) app.mount('body')
