@@ -13,9 +13,8 @@ if (process.env.NODE_ENV !== 'production') {
 
 app.use(require('./stores/clicks'))
 
-app.route('/', require('./views/main'))
 app.route('/*', require('./views/404'))
-app.route('/aboutme', require('./views/aboutme'))
+app.route('/', require('./views/aboutme'))
 app.route('/research', require('./views/research'))
 app.route('/publications', require('./views/publications'))
 app.route('/gallery', require('./views/gallery'))
