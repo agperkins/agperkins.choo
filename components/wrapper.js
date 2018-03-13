@@ -10,7 +10,7 @@ function wrapper (view) {
     if (state.title !== title) emit(state.events.DOMTITLECHANGE, title)
     state.page = state.page || { }
     return html`
-      <body class="sans-serif lhcopy">
+      <body class="avenir lhcopy">
         ${navigation()}
         ${view(state, emit)}
       </body>
